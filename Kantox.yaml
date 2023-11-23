@@ -9,6 +9,7 @@ metadata:
     argocd-image-updater.argoproj.io/kantox-dev.update-strategy: digest
     argocd-image-updater.argoproj.io/image-list: kantox-dev=gehal6/kantoxapp:latest
     argocd-image-updater.argoproj.io/write-back-method: argocd
+    argocd-image-updater.argoproj.io/kantox-dev.platforms: linux/arm64,linux/amd64
 spec:
   project: default
   source:
