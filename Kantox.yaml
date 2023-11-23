@@ -6,7 +6,7 @@ metadata:
   annotations:
     argocd-image-updater.argoproj.io/backend.helm.image-name: image.repository
     argocd-image-updater.argoproj.io/backend.helm.image-tag: image.tag
-    argocd-image-updater.argoproj.io/deals-dev.update-strategy: digest
+    argocd-image-updater.argoproj.io/kantox-dev.update-strategy: digest
     argocd-image-updater.argoproj.io/image-list: kantox-dev=gehal6/kantoxapp:latest
     argocd-image-updater.argoproj.io/write-back-method: argocd
 spec:
